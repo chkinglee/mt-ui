@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>
-            <router-link to="/menu">Menu</router-link>
+            <router-link to="/home">Menu</router-link>
         </div>
         <img alt="Vue logo" src="../assets/logo.png">
         <el-form :rules="rules" :model="loginForm" class="loginContainer">
@@ -22,7 +22,7 @@
     // @ is an alias to /src
 
     export default {
-        name: 'Home',
+        name: 'Index',
         components: {},
         data() {
             return {
